@@ -7,16 +7,16 @@ zuul:
   routes:
     oauth:
       path: /oauth/**
-      serviceId: iShopOAuth2Service 
+      serviceId: authService
     product:
       path: /product/**
-      serviceId: iShopProductService
+      serviceId: product
     customer:
       path: /customer/**
-      serviceId: iShopCustomerService
+      serviceId: customer
     shopping:
       path: /shopping/**
-      serviceId: iShopShoppingService
+      serviceId: shopping
     order:
       path: /order/**
-      serviceId: iShopOrderService 
+      serviceId: order 
